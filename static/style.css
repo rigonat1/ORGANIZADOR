@@ -1,0 +1,64 @@
+:root {
+    --primary: #0d6efd;
+    --success: #198754;
+    --danger: #dc3545;
+    --warning: #ffc107;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+#totalGeral {
+    font-weight: bold;
+}
+
+.table th {
+    border-top: none;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f5ff;
+    cursor: pointer;
+}
+
+.btn-action {
+    padding: 4px 8px;
+    margin: 0 2px;
+}
+
+.valor-positivo {
+    color: var(--danger);
+    font-weight: bold;
+}
+
+/* Animação de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.table-responsive {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Modal */
+.modal-header {
+    background-color: var(--primary);
+    color: white;
+}

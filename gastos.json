@@ -1,0 +1,51 @@
+[
+    {
+        "data": "2026-02-12",
+        "categoria": "Saúde",
+        "descricao": "Remédio",
+        "valor": 30.0,
+        "id": 1771626952569
+    },
+    {
+        "data": "2026-02-20",
+        "categoria": "Moradia",
+        "descricao": "Luz",
+        "valor": 150.0,
+        "id": 1771626978544
+    },
+    {
+        "data": "2026-02-20",
+        "categoria": "Alimentação",
+        "descricao": "Carne",
+        "valor": 200.0,
+        "id": 1771626994583
+    },
+    {
+        "data": "2026-02-20",
+        "categoria": "Educação",
+        "descricao": "Curso",
+        "valor": 90.0,
+        "id": 1771627013172
+    },
+    {
+        "data": "2026-02-20",
+        "categoria": "Lazer",
+        "descricao": "PS5",
+        "valor": 1900.0,
+        "id": 1771627041538
+    },
+    {
+        "data": "2026-02-20",
+        "categoria": "Transporte",
+        "descricao": "Trem",
+        "valor": 150.0,
+        "id": 1771627080862
+    },
+    {
+        "data": "2026-02-20",
+        "categoria": "Outros",
+        "descricao": "Livro",
+        "valor": 75.0,
+        "id": 1771627107457
+    }
+]
